@@ -1,0 +1,17 @@
+.inputColor {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius:7px 7px;
+    font-family: 'Gruppo', sans-serif;
+}
+
+.inputColor label {
+    color: #000;
+    font-family: 'Gruppo', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type="color"] {
+    height:33px;
+    margin-top:20px;
+}

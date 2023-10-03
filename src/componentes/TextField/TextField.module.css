@@ -1,0 +1,20 @@
+.input {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 7px 7px;
+    font-family: 'Gruppo', sans-serif;
+}
+
+::placeholder {
+    font-family: 'Gruppo', sans-serif;
+}
+
+.input label {
+    color: #000;
+    font-family: 'Gruppo', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span {
+    display: none;
+}

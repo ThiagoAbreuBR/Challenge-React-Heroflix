@@ -1,0 +1,51 @@
+.header {
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 3px solid #FFCE00;
+    display: flex;
+    height: 94px;
+    width: 100%;
+}
+
+.headerNav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.headerLogo {
+    height: 50px;
+    width: 150px;
+}
+
+.btnNovoTrailer {
+    background-color: #000;
+    border: 3px solid #FFF;
+    border-radius: 5px 5px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 10px;
+    height: 54px;
+    font-size: 21px;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+    transition: 0.7s;
+    width: 180px;
+}
+
+.btnNovoTrailer:hover {
+    background-color: #000;
+    color: rgba(255, 206, 0, 1);
+    border: 3px solid rgba(255, 206, 0, 1);
+}
+
+@media (max-width: 768px) {
+    .headerNav {
+        justify-content: center;
+    }
+
+    .btnNovoTrailer {
+        display: none;
+    }
+}

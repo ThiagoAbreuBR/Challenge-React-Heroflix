@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Black Ops One', cursive;
+    color:rgba(255, 255, 255, 1);
+    font-size:33px;
+    margin-top:3rem;
+    line-height:3rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Black Ops One', cursive;
+    color:rgba(255, 206, 0, 1) ;
+    font-size:20px;
+    margin-top:1.5rem;
+    line-height:3rem;
+    text-align: center;
+}

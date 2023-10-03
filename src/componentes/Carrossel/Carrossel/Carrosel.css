@@ -1,0 +1,30 @@
+.carrosel {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.carrosel-card {
+  border: 1px solid #fff;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 225px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.carrosel-card--wallpaper>img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
